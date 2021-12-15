@@ -1,0 +1,33 @@
+[ 데이터베이스(Database) ]
+
+[ 데이터베이스(Database) 소개 ]
+데이터를 저장하는 저장소
+1) Relation DB(RDB) - 관계형 데이터베이스
+행과 열 / 테이블 형태(Scheme) / 여러 테이블이 관계가 있을 수 있음
+MySQL, Oracle DB, Maria DB
+2) No SQL - 과계형 데이터베이스가 아닌 SQL
+성계 변경 노노해도 속성 추가 가능 / 테이블간 연결 조회 노노 / 속도가 빠름
+Mongo DB(데이터를 key-value의 형태로, JSON과 비슷하게 저장)
+
+[ MySQL 환경세팅 ]
+terminal에서 
+cd /usr/local/mysql/bin
+./mysql -u root -p
+(password는 태블릿 비번)
+
+[ MySQL 맛보기(MacOs) ]
+(1) terminal
+1. terminal 접속
+2. cd /usr/local/mysql/bin
+3. ./mysql -u root -p
+4. password 입력
+5. 명령어 입력해서 원하는 부분 확인
+(2) Workbench 프로그램 사용
+1. Database 접속
+2. Database 선택
+3. 테이블 스키마(설계 정보) 조회 - desc `film`;
+4. 테이블 데이터 조회 - select * from `film`;
+
+[ 1. 테이블 생성 / 삭제 / 수정 ]
+1. DB 생성하기
+
