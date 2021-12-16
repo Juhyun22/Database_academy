@@ -4,7 +4,7 @@
 여러줄 주석
 */ 
 create table `person` (
-	`id` int not null auto_increment primary key
+      `id` int not null auto_increment primary key
     , `name` varchar(10) not null 
     , `birth` smallint not null
     , `hobby` varchar(100) not null
