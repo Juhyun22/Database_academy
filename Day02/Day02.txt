@@ -1,0 +1,23 @@
+[ 1. 테이블 생성 / 삭제 / 수정 ]
+cmd + t -> cmd + s (make table, save)
+실행하고 싶은 부분 드래그 + 번개모양
+desc - 테이블 전체
+select * from - 테이블 내용
+칼럼 추가 -> null 내용 (무조건) 해서 추가! (존재하는 데이터 때매!)
+최대한 datatype 작게 넘치치 않게! 잘 생각해보기!
+수정시 null인지 not null인지 무조건!!!
+일정한 길이. 고정형은 char <-> 길이 지정. 길이 바뀜은 varchar
+
+[ 1-1. 테이블 생성과 수정 ]
+데이터 형태, 어떤 값을 넣는지 잘 볼것! 변수 중요!!!
+데이터가 있는 경우, 데이터 추가는 null!!! 원래 있던 데이터 때매!!
+float, double -> 부동 소수점 (오차날 확률 있뜸)
+decimal -> 고정소수점 (오차날 확률 적음)
+
+[ 2. Query ]
+crud = create / read / update / delete
+`` = name / '' = value(작은 '' or  큰 "")
+항상 values 사용!!
+
+줄 맨 마지막 - ctrl + e
+한줄 선택 - shift + command + 화살표
