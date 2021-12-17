@@ -7,7 +7,9 @@ delete from `user` where `id` = 1;
 delete from `user`;
 
 # 테이블 내용 전체 삭제: id 초기화
--- 테이블을 삭제했다가 다시 생성한다. truncate table `user`; 
+-- 테이블을 삭제했다가 다시 생성한다. 
+
+truncate table `user`; 
 
 
 
