@@ -1,1 +1,10 @@
-[ 
+[ 2. Query ]
+
+[ 2-1. INSERT - 성적 입력 ]
+나중에 java와 같은 변수를 쓸 수 있기 때문에, type과 이름, ''(String, int)등을 맞춰주는 것이 좋음!
+values();
+
+[ 2-2. INSERT - 리뷰 등록 ]
+id, createdAt, updatedAt는 값이 들어가게 정해 놓아서 생략 가능!
+숫자는 그냥 ''없이 쓰기. 
+₩review₩에 값을 안넣으면 null이 들어감! -> not null일시, 
