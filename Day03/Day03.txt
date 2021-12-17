@@ -7,4 +7,45 @@ values();
 [ 2-2. INSERT - 리뷰 등록 ]
 id, createdAt, updatedAt는 값이 들어가게 정해 놓아서 생략 가능!
 숫자는 그냥 ''없이 쓰기. 
-₩review₩에 값을 안넣으면 null이 들어감! -> not null일시, 
+₩review₩에 값을 안넣으면 null이 들어감! -> ₩review₩가 처음 할당될 때, not null이면,
+값을 안넣으면 query 실행시 error 뜸.
+데이터 id 순서 지키고 싶으면 data전체 삭제 후 다시 table data 할당.
+
+[ SELECT문 ]
+* = 전체, 모든 필드
+₩₩로 감싸야 테이블 인식!!
+select * from은 workbench에서 엄청 큰 data는 X -> 1000개까지만 (원래는 100개가 기본 세팅)
+/ cmd(terminal)는 제한 노노 그래서 엄청 큰 데이터 다 보고싶으면 cmd로 기기
+별칭 = 보여지기 편하게만 변경. 실제로 바뀌는건 X. 가끔 보기 편하게!
+count(1) = 전체!
+java의 대입은 = / mysql은 yes or no!
+데이터의 생성일이 특정일 이후인 데이터들 조회 - 시간까지 하는것!!! 자세히 쓸 수록 죠흠!!
+mysql workbench에서 보여지는 데이터 마지노선 1000개!! 
+예) 5000개의 데이터 -> 1000개가 5번 
+in문은 100개가 권장.
+
+[ 2-3. SELECT - 학생 성적 정보 ]
+₩₩인지, ''(작은 따음표)인지 확인!!
+수행 후, Response애서 열개수 나옴!
+
+[ 2-4. SELECT - 리뷰 정보 ]
+select문 중요!!⭐️⭐️ 통계치 중요!!⭐️⭐
+null 이 아니면, ₩₩ != ''이 아니라, is not nul!!!!!!
+날짜 조건은 >,<로만 씀! = 잘 안씀!!!! 
+
+[ UPDATE문 ]
+=는 대입...
+Action에서 select인지, update인지 정보 나옴!!
+update는 ,다른 정보 저장 가능.
+update이기 때문에 ₩updatedAt₩ 값 변경되어애 함.
+
+[ 2-5. UPDATE - 점수 업데이트 ]
+
+[ DELETE문 ]
+delete 하기 전, 데이터를 지우는 것은 위험하기 때문에 select 먼저 해서 데이터 정보 확인해야함!
+
+
+
+
+
+
