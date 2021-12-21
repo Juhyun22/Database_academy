@@ -1,0 +1,39 @@
+[ 3. SELECT문과 다양한 문법 ]
+
+[ 3-3. GROUP BY와 HAVING절 ]
+~별로 : group by임
+group by의 결과 조건: having 절!
+순서별로 코드 작성! & 문제 풀이!!
+
+[ 3-4. 종합 문제 ]
+null이 X -> is not null!!
+0.0이 X  -> != 0.0!!
+group by와 having절은 한쌍! -> 정렬 -> limit순으로 코드 작성!
+where절 말고 if절도 있음! 
+but 아주 복잡한 query절이 아닌 이상 where절로 왠만한 거는 됨!! 
+
+[ 4. INDEX ]⭐️⭐️
+실전 코딩 시 중요!!
+데이터 분류 -> labeling 빠르게 찾기 위해!
+database에서는 Index 개념 !!
+서버 넘길때, 0.5초 이상이면 수정 -> 1째로 DB(튜닝)
+2년차 이상이묜 DB튜닝에 대한 공부..
+DBA... 데이터베이스 Query 관리 
+master : insert, update, delete 
+    - backup
+    - slave: select
+(조건에 따라 select가 master에 가는 경우도 있음)
+table별로 index가 생김. 
+그 인덱스에 정보거 저장됨. 
+ex) index [2020, 20201, 2022, ...]
+teble <- index(data)
+index는 보통 tree로 되어있음.. (결국 하나를 배우면 다 이어지는구나,,,)
+B+ tree
+자료구조 -> 어떻게 구현되는지..
+primary key: 고유 / unique key: index
+btree -> 효율적인지 판단 후 사용!
+DB -> Index 확인 후, where절 사용!
+where절 자주 사용되면 index 활용! 
+type -> all은 full scan, rows, extra. 
+explain sekect * from ~은 조건 돌렸을 때의 상황 
+type -> range는 어떤 범위를 뜻함!!
