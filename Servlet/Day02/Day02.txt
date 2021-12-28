@@ -1,1 +1,15 @@
-[ Servlet ]
+[ 1. Servlet ]
+ISO.. tomcat이 내려주고 있음 -> UTF..
+text/plain = plain한 type을 출력
+wml에 파일 올리고 ctrl(cmd) 눌러서 연결 되는지 확인!!
+http://localhost:8080/파일 이름(path)
+항상 주정 시, 종효(멈춤)눌러서 할것!
+Date는 항상 util
+KST = 대한민국 시간(우리나라~~)
+400번대 error -> request 쪽의 error
+@Override 중요햇!!
+h = 12시간 기준 -> 오전, 오후 구분 X
+H = 24시간 기준 -> 오후는 13시~ 표현됨
+cmd(alt) + 방향키 = 이동
+console exception(밑으로 계속 exception 확인) -> error 찾기 
+쿼리 파라미터(Query Parameter)
