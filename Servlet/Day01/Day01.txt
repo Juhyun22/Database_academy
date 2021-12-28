@@ -1,1 +1,13 @@
 [ Servlet ]
+
+[ 환경설정 ]
+server(tomcat 넣기) -> 언어 설정
+web - css, html,jsp / general - workspace
+java = class / webapp = jsp
+파일.. cmd + 마우스 클릭되면 제대로 연결 ok!
+<url-pattern>에는 /값!! 무조건 /넣어줘야함!!
+@Override = 오류를 잘 잡아줌!
+서버 켰다 -> 껐다 -> 수정 -> 저장 -> 켰다 -> 껐다
+서버는 사용시에만 켰다가 끄는게 수정시에 좋음! 안그러면 데이터 많이 먹음!!!
+실행버튼보다는 디버그 모양 버튼 누르는게 좋음!! 
+404 error -> not found.. 코드나 내부에서 문제 있는지 확인 
