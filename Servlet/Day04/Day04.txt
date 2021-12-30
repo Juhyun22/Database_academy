@@ -7,6 +7,7 @@
 request -> servlet -> response 
 단계 중 어디에서 잘못했는지 파악하는게 중요 
 list - 일반 for문, iterator, 향상된 for문 
+검색된 단어만 - String[], iter, for..?
 
 [ 1. Servlet(POST) ]
 Http request - 1. Get, 2. Post
