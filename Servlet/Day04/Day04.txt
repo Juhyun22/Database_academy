@@ -1,0 +1,20 @@
+[ 1. Servlet ]
+
+[ 1-7. Get Method(폼 태그) - 주문하기 ]
+무조건 데이터 보내는거 -> submit(값)
+
+[ 1-8. Get Method(폼 태그) - 검색하기 ]
+request -> servlet -> response 
+단계 중 어디에서 잘못했는지 파악하는게 중요 
+list - 일반 for문, iterator, 향상된 for문 
+
+[ 1. Servlet(POST) ]
+Http request - 1. Get, 2. Post
+Get: 그냥 주소 치고 들어갈 수 있음 request body X / 정보 찾아야 할때 유용
+Post: 그냥 주소 치고 들어갈 수 X. 브라우저 바로 X. web브라우저 통해서만. form 태그 / 뭉탱이의 정보. 정보 노출 X
+
+            request
+브라우저 ----------------->   웹서버
+       <-----------------
+            response
+-> 주고 받을 때, 필터 가능!!!
