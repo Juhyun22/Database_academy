@@ -1,0 +1,30 @@
+[ 1. Servlet ]
+request & response
+input -> 가공 -> output
+request -> servlet -> response
+/path/filename(path)?Data
+request(Get, Post)
+int는 null이 포함 X. 그래서 Integer로 넣는 것이 옳다!!
+why? Integer는 null 포함!!
+if문으로 null인지 아닌지 확인해주는 것이 좋음!!
+500대 error -> server error!
+400대 error -> parameter(request) error!
+
+[ 1-5. Get Method - 구구단 ]
+request & response 하는 곳 확인!
+request(몇단?) -> servlet(계산) -> response(출력)
+html안에서 반복 돌리려면 javascript로! 
+ctrl + alt(cmd) + 방향키 = 복사
+html파일로 사이트 열어야함..
+http://localhost:8080/파일위치/파일이름.html 
+
+[ 1-6. Get Method와 JSON - 연산 결과 JSON ]
+request(number1, number2) -> servlet(json) -> response(json)
+마우스 올려소 수조 보기!!
+
+[ 1. Servlet ]
+html - 주소 걸어둔다 <a> (get)
+F2 -> 이름 바꾸기 
+method = http request 방식. get? post?
+id가 X. name으로 해야 값 넘길 수 있음! 
+java에서 <html>코드에 name이 있어야 데이터 주고 받을 수 있음!
