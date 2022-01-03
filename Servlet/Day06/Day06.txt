@@ -1,0 +1,28 @@
+[ SERVLET ]
+
+[ 형상관리 ]
+sourcetree / git / github
+dev(db) -> stage 서버(real db) -> real 서버(사용자 version)
+.gitignore⭐️
+순서
+1. 마스터에 기본 파일 커밋
+2. develop 브랜치
+3. 커밋은 develop에만
+4. develop -> master 병합(merge)
+... github꾸미기(내 skill)
+workspace -> Test(코드 있는 파일만)올리기 
+1. 파일 올리기
+2. .gitignore 만들기(코드 있는 파일 안에)
+3. repository의 source tree에 저장
+4. github의 https보다 ssh가 보안상 좋음
+5. key 생성
+   - 공개키(public key) | 개인키(private key)
+     모두가 다 볼 수 있음  | 내 컴퓨터에 잘 보관
+     in github        | in my computer
+... 서로간의 암호화 된 걸 풀 수 있음 
+개인 key 잘 들고 있어야 함!
+6. ssh 주소 copy
+7. 저장소 등록(source tree) 원격 -> 저장소 등록 
+8. push / pull(커밋)
+9. exlipse / workspace / clone, clone-workspace
+* git이 보이는 코드까지 선택 -> eclipse pull
