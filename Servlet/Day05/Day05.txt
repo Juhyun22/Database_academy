@@ -1,3 +1,29 @@
 무슨 파일로 진도나갔는지 까먹어서 지금까지 한거 전체 올린다...
 
 [ 1. Servlet ]
+
+[ 1-8. Get Method(폼 태그) - 검색하기 ]
+맛집이 문장에 여러번 나왔을 때를 고려..! 
+java에서 replace는 곳곳에 있는 단어를 찾아줌(javascript는 한곳에만..)
+
+[ 1-10. Post Method - 사용자 정보 확인 ]
+error 404 - 그런 파일이 존재하지 않아!!!!
+
+[ 2. JSP ]
+Java server page - Html + Java
+확장자.jsp 
+HTML이 메인. 중간에 java 코드 넣을 수 있음!
+방법 세가지 <% %>  <%! %>  <%= %>
+Java는 HTML 웹화면에서는 안보임.
+사용자가 못보게 -> jsp주석으루
+1. 스크리틀립(scriptlet)
+<% java %>
+2. expression은 <%= 값/변수 %>
+<%= 간단한 연산 가능 %>
+변수값 출력. 함수도 가능!!!(return값 있을 떄만!)
+3. 선언문
+<%! java class %> ... class안에 필드/메소드 가능!!
+--> 원하는 때에 java 구문을 쓸 수 있으나, 별로임..ㅎ
+request(html) -> servlet -> response(html/plain)
+request(jsp) -> JSP -> response
+jsp 안에서 선언 없이 사용 가능한 객체 - request, response, out... 등등 
