@@ -3,6 +3,8 @@
 <%@ page import="java.util.*" %>
 <!DOCTYPE html>
 <html>
+	
+	<div>
 <head>
 	<meta charset="UTF-8">
 	<title>배탈의 민족</title>
