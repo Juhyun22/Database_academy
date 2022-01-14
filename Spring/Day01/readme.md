@@ -2,7 +2,7 @@
 
 클라이언트 <---- request, response -----> 서버
 
-was: aeb application server
+was: web application server
 
 incoding is importamt : utf-8 
 
